@@ -15,7 +15,7 @@ Este proyecto es una implementación de una API en Django que gestiona la creaci
 Primero, clonar este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/cometa-proyecto.git
+git clone [https://github.com/tu-usuario/cometa-proyecto.git](https://github.com/DiazFranco/pagar-cervezas-py.git)
 cd cometa-proyecto
 ```
 
