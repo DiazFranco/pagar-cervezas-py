@@ -16,7 +16,7 @@ Primero, clonar este repositorio en tu máquina local:
 
 ```bash
 git clone https://github.com/DiazFranco/pagar-cervezas-py.git
-cd cometa-proyecto
+cd pagar-cervezas-py
 ```
 
 ### 2. Crear un entorno virtual (opcional pero recomendado)
