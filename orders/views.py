@@ -5,9 +5,9 @@ import json
 stock = {
     "last_updated": "20240910 120000",
     "beers": [
-        {"name": "Corona", "price": 115, "quantity": 2},
-        {"name": "Quilmes", "price": 120, "quantity": 0},
-        {"name": "Club Colombia", "price": 110, "quantity": 3}
+        {"name": "Corona", "price": 115, "quantity": 2, "image": "http://localhost:8000/static/assets/corona.jpg"},
+        {"name": "Quilmes", "price": 120, "quantity": 0, "image": "http://localhost:8000/static/assets/quilmes.webp"},
+        {"name": "Club Colombia", "price": 110, "quantity": 3, "image": "http://localhost:8000/static/assets/colombia.jpg"}
     ]
 }
 
@@ -24,6 +24,9 @@ order = {
 
 def get_order_status(request):
     return JsonResponse(order)
+
+def get_stock(request):
+    return JsonResponse(stock)
 
 
 def create_order(request):
